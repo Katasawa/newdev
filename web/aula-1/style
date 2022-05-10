@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+}
+section{
+  margin: auto;
+  border: 1px solid rgb(20, 44, 44);
+  padding 5px;
+  height: 100px;
+  width: 100px;
+}
+button {
+  color: azure !important;
+}
+#CorBotão {
+  color: azure;
+}
+.cores {
+  color: azure !important;
+}
