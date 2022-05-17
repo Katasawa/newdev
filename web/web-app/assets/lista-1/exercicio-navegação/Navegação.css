@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Jura', sans-serif;
+}
+
+.Container {
+  width: 60rem;
+  height: 62.9rem;
+  padding-inline: 2.8rem;
+  margin-top: 2.8rem;
+  margin-bottom: 2.8rem;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 2.8rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  width: 16rem;
+  height: 5rem;
+  background: #00856f;
+  background-color: #00856f;
+  border-radius: 8rem;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  color: white;
+  border: 1px solid white;
+}
+
+.link-botao {
+}
+
+h1 {
+  margin-bottom: 2.8rem;
+}
