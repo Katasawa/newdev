@@ -2,8 +2,8 @@
   margin: 0%;
 }
 
-:root{
-  font-size: 62,5%;
+:root {
+  font-size: 62, 5%;
 }
 
 html,
@@ -16,12 +16,12 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-main{
+main {
   display: flex;
   padding: 3rem;
 }
 
-main section:first-child{
+main section:first-child {
   justify-content: space-around;
   display: flex;
   align-items: center;
@@ -36,12 +36,12 @@ header {
   padding-bottom: 1rem;
 }
 
-header h3{
+header h3 {
   color: rgb(204, 19, 19);
   transition: ease;
 }
 
-header h3:hover{
+header h3:hover {
   color: rgba(255, 0, 0, 0.233);
   font-size: 2rem;
   transition: ease;
@@ -54,47 +54,107 @@ footer {
   width: 80%;
   border: 1px solid red;
   margin: 0 auto;
+  background-color: rgb(204, 204, 201);
 }
 
-ul{
+ul {
   display: flex;
   list-style-type: none;
 }
 
-li{
+li {
   margin-right: 2rem;
 }
 
-main section h1{
+main section h1 {
   font-size: 5rem;
 }
 
-main section p{
+main section p {
   text-align: justify;
 }
 
-
-main section:first-child{
+main section:first-child {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 4rem;
   flex-direction: column;
+  margin: auto;
 }
 
-.social i:hover{
+
+.social i {
+  margin-right: 1rem;
+}
+
+.social .fa-twitter:hover {
   color: rgb(0, 127, 238);
   cursor: pointer;
 }
 
-.social i{
-  margin-right: 1rem ;
+
+.social.fa-instagram:hover {
+  color: #;
+  cursor: pointer;
 }
 
+.social.fa-tiktok:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.social a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+footer .social, p {
+  padding: 1rem;
+}
+
+.botao button{
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  color:red;
+  background-color: white;
+  width: 18rem;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.botao button:hover{
+  background-color: white;
+  color: red;
+}
+
+
+head ul li{
+  margin right: 2rem;
+}
+
+header ul{
+
+}
+
+.cardapio{
+  width: 40rem;
+  background-color:white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.cardapio ul{
+  list-style-type: none;
+}
+.cardapio ul li{
+  margin-top: 1rem;
+}
