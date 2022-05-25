@@ -158,3 +158,32 @@ header ul{
 .cardapio ul li{
   margin-top: 1rem;
 }
+
+
+.main-about{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-about p{
+  line-height: 3rem;
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+
+.container{
+  height: 100%;
+  width: 50%;
+  color: black
+}
+
+.main-contato section{
+  width: 50%;
+}
+
+.main-contato section:first-child{
+  border: 1px solid red;
+}
+
+.main-contato section:second
