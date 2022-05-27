@@ -1,0 +1,66 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+:root {
+  font-size: 62.5%;
+  --primary-color: rgb(250, 34, 34)
+}
+
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h1{
+  text-align: center;
+  color:var(--primary-color);
+}
+
+
+#form-message {
+  margin-top: 2rem;
+  margin: 0 auto;
+  width: 50%;
+  display: grid;
+}
+
+
+input {
+  padding: 0.5rem
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+
+#addButton {
+  border: 1px solid #ccc;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+
+#section {
+  margin-top: 3rem;
+}
+
+
+#mememensagem h2 {
+  text-align: center;
+}
